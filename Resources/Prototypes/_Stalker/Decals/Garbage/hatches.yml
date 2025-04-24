@@ -1,0 +1,15 @@
+- type: decal
+  id: LukHatchClose
+  tags: ["stalker", "luk"]
+  defaultCleanable: true
+  sprite:
+    sprite: _Stalker/Decals/Garbage/hatches.rsi
+    state: luk
+
+- type: decal
+  id: LukHatchOpen
+  tags: ["stalker", "luk2"]
+  defaultCleanable: true
+  sprite:
+    sprite: _Stalker/Decals/Garbage/hatches.rsi
+    state: luk2
