@@ -196,3 +196,19 @@
     state: office-dark
   - type: Transform
     anchored: true
+
+- type: entity
+  name: Bench
+  id: STBench
+  suffix: ST, Mapping
+  parent: STSeatBase
+  description: An old, rotten bench can still give you a break.
+  components:
+    - type: Transform
+      anchored: true
+    - type: Physics
+      bodyType: Static
+    - type: Anchorable
+    - type: Sprite
+      sprite: _Stalker/Structures/Furniture/Chairs/Bench/bench.png
+      state: bench
